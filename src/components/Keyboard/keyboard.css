@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#keyboard {
+  background-color: #555;
+  color: #eee;
+  font-weight: bolder;
+  height: 500px;
+  padding: 20px;
+}
+
+#control-panel {
+  background-color: #89c;
+  border-radius: 10px;
+  height: 220px;
+  margin: 20px 0;
+}
+
+#keyboard-canvas {
+  background-color: #eef;
+}
