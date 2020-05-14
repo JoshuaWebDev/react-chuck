@@ -13,13 +13,13 @@ class Keyboard extends React.Component {
 
     key.fillStyle = "#fff";
     key.fillRect(76, 0, 75, 200);
-    
+
     key.fillStyle = "#fff";
     key.fillRect(152, 0, 75, 200);
-    
+
     key.fillStyle = "#fff";
     key.fillRect(228, 0, 75, 200);
-    
+
     key.fillStyle = "#fff";
     key.fillRect(304, 0, 75, 200);
 
@@ -31,14 +31,50 @@ class Keyboard extends React.Component {
 
     key.fillStyle = "#fff";
     key.fillRect(532, 0, 75, 200);
+
+    key.fillStyle = "#fff";
+    key.fillRect(608, 0, 75, 200);
+
+    key.fillStyle = "#fff";
+    key.fillRect(684, 0, 75, 200);
+
+    key.fillStyle = "#fff";
+    key.fillRect(760, 0, 75, 200);
+
+    key.fillStyle = "#fff";
+    key.fillRect(836, 0, 75, 200);
+
+    key.fillStyle = "#fff";
+    key.fillRect(912, 0, 75, 200);
+
+    key.fillStyle = "#fff";
+    key.fillRect(988, 0, 75, 200);
+
+    key.fillStyle = "#fff";
+    key.fillRect(1064, 0, 75, 200);
+
+    key.fillStyle = "#fff";
+    key.fillRect(1140, 0, 75, 200);
+
+    key.fillStyle = "#fff";
+    key.fillRect(1216, 0, 75, 200);
+
+    key.fillStyle = "#fff";
+    key.fillRect(1292, 0, 75, 200);
+
+    key.fillStyle = "#fff";
+    key.fillRect(1368, 0, 75, 200);
+
+    key.fillStyle = "#000";
+    key.fillRect(50, 0, 50, 110);
   }
 
   render () {
     return(
       <div id="keyboard">
         <div id="control-panel"></div>
-        <canvas ref="canvas" height={200} width={1480}>
-          
+        <canvas ref="canvas" id="canvas" height={200} width={1440}>
+
         </canvas>
       </div>
     )

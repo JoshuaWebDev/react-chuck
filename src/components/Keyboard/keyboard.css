@@ -19,6 +19,8 @@
   margin: 20px 0;
 }
 
-#keyboard-canvas {
-  background-color: #eef;
+#canvas {
+  background-color: #ccc;
+  margin: auto 10px;
+  padding: 0 10px 5px 10px ;
 }
