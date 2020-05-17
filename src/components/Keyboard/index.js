@@ -67,6 +67,42 @@ class Keyboard extends React.Component {
 
     key.fillStyle = "#000";
     key.fillRect(50, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(126, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(277, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(355, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(431, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(583, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(659, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(811, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(887, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(963, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(1115, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(1191, 0, 50, 110);
+
+    key.fillStyle = "#000";
+    key.fillRect(1343, 0, 50, 110);
   }
 
   render () {
